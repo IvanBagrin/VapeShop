@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header class="container mx-auto MyContainer"/>
+  <Promo class="container mx-auto MyContainer" />
+  <ProductCategories class="container mx-auto MyContainer"/>
+  <Benefit class="container mx-auto MyContainer"/>
+  <Difference class="container mx-auto MyContainer"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Header from './components/Header/Header.vue';
+import Promo from "./components/Promo/Promo.vue"
+import ProductCategories from './components/ProductCategories/ProductCategories.vue'
+import Benefit from "./components/Benefit/Benefit.vue"
+import Difference from "./components/Difference/Difference.vue"
+import './assets/tailwind.css';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Header,
+    Promo,
+    ProductCategories,
+    Benefit,
+    Difference,
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
