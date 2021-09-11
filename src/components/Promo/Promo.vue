@@ -1,21 +1,21 @@
 <template>
-<div class="w-screen grid grid-cols-2 pt-10 pb-14 relative">
+<div class="xl:w-screen grid auto-rows-min w-100% xl:grid-cols-2 xl:p-5 xl:pt-10 xl:pb-14 relative">
     <div>
-        <div class="mt-28 text-brownMy font-bold text-2xl">New Arrival</div>
-        <div class="text-7xl tracking-wide font-extrabold leading-tight text-blackMy">Summer Sale 34% OFF</div>
-        <div class="mt-10 font-semibold text-lg leading-10 text-grayMy w-8/12">The fussion of stunning design, the best flavour, smell, and flavour for your best experience</div>
-        <div class="flex  w-9/12 h-20 rounded shadow-2xl mt-14 justify-between items-center px-7">
-            <input class="w-auto focus:outline-none" type="text" placeholder="Search product here">
-            <button class = "w-40 h-12 border border-blackMy rounded bg-blackMy text-white">Search</button>
+        <div class="mt-14 xl:mt-28 text-brownMy font-bold text-2xl">New Arrival</div>
+        <div class="text-5xl xl:text-7xl  tracking-wide font-extrabold leading-tight text-blackMy w-auto">Summer Sale 34% OFF</div>
+        <div class="mt-5 xl:mt-10 font-semibold text-lg leading-10 text-grayMy w-auto xl:w-8/12">The fussion of stunning design, the best flavour, smell, and flavour for your best experience</div>
+        <div class="flex w-auto xl:w-9/12 h-20 rounded shadow-2xl mt-12 xl:mt-14 justify-between items-center px-7">
+            <input class="w-32 focus:outline-none" type="text" placeholder="Search product here">
+            <button class = "w-28 xl:w-40 h-12 border border-blackMy rounded bg-blackMy text-white">Search</button>
         </div>
     </div>
-  <div>
+  <div class = 'row-start-1 row-end-2 grid-flow-row xl:row-auto'>
       
-        <div class="w-100%">
-            <img class = " h-600 float-right" src="../../assets/img/promo/promo.png" alt="promo">
+        <div class="w-100% relative">
+            <img class = " xl:h-600 xl:w-auto w-72 h-96 xl:float-right mx-auto" src="../../assets/img/promo/promo.png" alt="promo">
 
 
-            <div class = "w-72 h-20 flex justify-between items-center pr-2.5 pl-4 shadow-xl rounded bg-white absolute mt-72 -ml-6">
+            <div class = "hidden w-72 h-20 xl:flex justify-between items-center pr-2.5 pl-4 shadow-xl rounded bg-white absolute mt-72 -ml-6">
                 <div class = " w-14 h-14" >
                     <img class = "" src="../../assets/img/promo/promo_small.png" alt="promo_small">
                 </div>
@@ -39,13 +39,13 @@
 
 
 
-            <div class = "w-72 h-20 flex justify-between items-center pr-2.5 pl-4 shadow-xl rounded bg-white absolute mt-29.75 -right-12">
-                <div class = " w-14 h-14" >
-                    <img class = "" src="../../assets/img/promo/promo_small.png" alt="promo_small">
+            <div class = "xl:w-72 xl:h-20 w-64 h-16 flex justify-between items-center px-2.5 xl:pr-2.5 xl:pl-4 shadow-xl rounded bg-white absolute xl:mt-29.75 -mt-28 right-3 xl:-right-12">
+                <div class = "" >
+                    <img class = "xl:w-14 xl:h-14 w-12 h-12" src="../../assets/img/promo/promo_small.png" alt="promo_small">
                 </div>
                 
                 <div class = "w-32">
-                    <div class = "text-lg font-semibold ">Monster Pod</div>
+                    <div class = "xl:text-lg text-sm font-semibold ">Monster Pod</div>
                     <div  class = "flex justify-between">
                         <div>
                             <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@
                         <div class="font-semibold text-sm text-gray-500 tracking-wide  mr-2" >2145 Reviews</div>
                     </div>
                 </div>
-                <div class="w-16 h-11 flex items-center justify-center bg-brownMy rounded" >
+                <div class="xl:w-16 xl:h-11 w-12 h-8 flex items-center justify-center bg-brownMy rounded" >
                     <div class="tracking-wide text-sm font-bold text-white ">$35</div>
                 </div>
             </div>

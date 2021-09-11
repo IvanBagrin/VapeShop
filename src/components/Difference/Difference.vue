@@ -1,12 +1,12 @@
 <template>
 
-    <div class='grid grid-cols-2 py-20'>
-        <div class = "h-432 rounded" >
+    <div class='xl:grid xl:grid-cols-2 py-20'>
+        <div class = "xl:h-432 rounded" >
             <img src="../../assets/img/difference/difference.png" alt="">
         </div>
         <div class = "mt-6">
-            <div class = "w-532 text-5xl font-bold leading-normal text-blackMy">What is the difference between vaping and smoking</div>
-            <div class = 'mt-2.5 font-medium text-grayMy leading-8 text-lg w-480'>The fussion of stunning design, the best flavour, smell, and flavour for your best experience</div>
+            <div class = "xl:w-532 text-5xl font-bold leading-normal text-blackMy">What is the difference between vaping and smoking</div>
+            <div class = 'mt-2.5 font-medium text-grayMy leading-8 text-lg xl:w-480'>The fussion of stunning design, the best flavour, smell, and flavour for your best experience</div>
             <button class = 'w-44 h-14 border border-blackMy rounded bg-blackMy text-white font-medium text-lg mt-10'>Learn more</button>
         </div>
         

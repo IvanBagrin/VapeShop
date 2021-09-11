@@ -1,7 +1,7 @@
 <template>
-    <div class = 'h-530 min-h-full box-border pt-24  pb-28 bg-blackMy rounded-b-3xl'>
-        <div class = 'flex justify-between mx-auto MyContainer'>
-            <div class = 'text-white w-515'>
+    <div class = 'xl:h-530 h-760 min-h-full box-border pt-24  pb-28 bg-blackMy rounded-b-3xl relative'>
+        <div class = 'xl:flex xl:justify-between mx-auto xl:MyContainer'>
+            <div class = 'text-white xl:w-515'>
                 <div><svg width="298" height="45" viewBox="0 0 298 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M38.4122 2.01923L23.8988 35.6731H14.465L0 2.01923H10.3529L19.5447 23.9423L28.9301 2.01923H38.4122Z" fill="#B85C38"/>
                     <path d="M50.5413 9.18269C54.8953 9.18269 58.2173 10.1763 60.5072 12.1635C62.7971 14.1186 63.942 17.1314 63.942 21.2019V35.6731H55.3791V32.3077C54.0568 34.8397 51.4766 36.1058 47.6386 36.1058C45.6067 36.1058 43.849 35.7532 42.3654 35.0481C40.8818 34.3429 39.753 33.3974 38.979 32.2115C38.2372 30.9936 37.8663 29.6154 37.8663 28.0769C37.8663 25.609 38.8177 23.7019 40.7206 22.3558C42.6234 20.9776 45.5584 20.2885 49.5254 20.2885H54.7502C54.5889 17.5321 52.7345 16.1538 49.1867 16.1538C47.9289 16.1538 46.6549 16.3622 45.3649 16.7788C44.0748 17.1635 42.9782 17.7083 42.0751 18.4135L38.979 12.2115C40.4303 11.25 42.188 10.5128 44.2522 10C46.3485 9.45513 48.4449 9.18269 50.5413 9.18269ZM50.2027 30.3365C51.267 30.3365 52.2023 30.0801 53.0086 29.5673C53.8149 29.0545 54.3954 28.3013 54.7502 27.3077V25.0481H50.7832C48.1063 25.0481 46.7678 25.9295 46.7678 27.6923C46.7678 28.4936 47.0742 29.1346 47.687 29.6154C48.2998 30.0962 49.1383 30.3365 50.2027 30.3365Z" fill="#B85C38"/>
@@ -14,24 +14,25 @@
                     <path d="M298 22.6923C298 22.7564 297.952 23.5096 297.855 24.9519H278.794C279.181 26.2981 279.923 27.3397 281.019 28.0769C282.148 28.7821 283.551 29.1346 285.228 29.1346C286.486 29.1346 287.566 28.9583 288.47 28.6058C289.405 28.2532 290.34 27.6763 291.275 26.875L296.113 31.875C293.565 34.6955 289.84 36.1058 284.938 36.1058C281.874 36.1058 279.181 35.5288 276.859 34.375C274.537 33.2212 272.731 31.6186 271.44 29.5673C270.183 27.516 269.554 25.1923 269.554 22.5962C269.554 20.0321 270.166 17.7404 271.392 15.7212C272.65 13.6699 274.375 12.0673 276.569 10.9135C278.762 9.75962 281.229 9.18269 283.97 9.18269C286.583 9.18269 288.953 9.72757 291.082 10.8173C293.211 11.875 294.888 13.4295 296.113 15.4808C297.371 17.5 298 19.9038 298 22.6923ZM284.019 15.6731C282.6 15.6731 281.406 16.0737 280.439 16.875C279.503 17.6763 278.907 18.766 278.649 20.1442H289.389C289.131 18.766 288.518 17.6763 287.55 16.875C286.615 16.0737 285.438 15.6731 284.019 15.6731Z" fill="#B85C38"/>
                     </svg>
                 </div>
-                <div class = ' text-7xl tracking-wide font-extrabold leading-tight mt-6 '>Keep calm and vape on</div>
-                <div class = 'text-xl mt-5'>2021 Ibey Design. Allright reserved</div>
+                <div class = ' text-5xl xl:text-7xl tracking-wide font-extrabold leading-tight mt-6 '>Keep calm and vape on</div>
+                <div class = 'text-xl xl:mt-5 absolute bottom-20 xl:bottom-0 w-44 xl:w-auto xl:relative'>2021 Ibey Design. Allright reserved</div>
             </div>
             <div>
-                <div class = ' w-600 mt-20 mr-10 text-xl tracking-wide font-normal'>
-                    <div class = 'text-brownMy flex justify-between '>
-                        <div class = 'w-32'></div>
+                <div class = ' xl:w-600 mt-20 mr-10 text-xl tracking-wide font-normal'>
+                    <div class = 'text-brownMy flex justify-between mt-32 mr-10 xl:mr-2'>
+                        <div class = 'xl:w-32'></div>
                         <div class = 'w-32'>Categories</div>
                         <div class = 'w-36'>About us</div>
                     </div>
-                    <div class = 'text-white flex justify-between'>
-                        <ul class = 'w-32'>
+                    <div class = 'text-white xl:flex xl:justify-between'>
+                        <ul class = 'top-72 xl:top-0 xl:w-32 w-auto absolute  xl:relative grid grid-rows-2 grid-cols-2 gap-x-9 xl:grid-rows-1 xl:grid-cols-1'>
                             <li class = "mt-4 hover:underline"><a class = "" href="#">Home</a></li>
                             <li class = "mt-5 hover:underline"><a href="#">Shop</a></li>
                             <li class = "mt-5 hover:underline"><a href="#">Contact us</a></li>
                             <li class = "mt-5 hover:underline"><a href="#">Promo</a></li>
                         </ul>
-                        <div class = 'w-32'>
+                        <div class = "flex justify-between xl:w-375">
+                            <div class = 'w-32'>
                             <ul>
                             <li class = "mt-4 hover:underline"><a href="#">Accessoires</a></li>
                             <li class = "mt-5 hover:underline"><a href="#">Devices</a></li>
@@ -44,6 +45,7 @@
                             <li class = "mt-5 hover:underline"><a href="#">Email us</a></li>
                             <li class = "mt-5 hover:underline"><a href="#">Offline store</a></li>
                         </ul>
+                        </div>
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,9 @@
 <template>
     <div class = 'h-360 min-h-full pt-10 pb-20'>
-       <div class = "text-center">
+       <div class = "xl:text-center">
             <div class = "text-brownMy font-bold text-2xl">Product brand</div>
             <div class = 'text-5xl font-bold leading-normal text-blackMy'>From the best brand</div>
-            <div class = "flex justify-between mt-20">
+            <!-- <div class = "flex justify-between mt-20">
                 <div>
                     <svg width="121" height="61" viewBox="0 0 121 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.584 12.8848H22.6758V26.7363C19.6641 27.7676 16.3535 28.2832 12.7441 28.2832C8.7832 28.2832 5.71875 27.1348 3.55078 24.8379C1.39453 22.541 0.316406 19.2656 0.316406 15.0117C0.316406 10.8633 1.5 7.63477 3.86719 5.32617C6.23438 3.01758 9.55078 1.86328 13.8164 1.86328C15.4336 1.86328 16.957 2.01562 18.3867 2.32031C19.8281 2.625 21.082 3.01172 22.1484 3.48047L19.9512 8.92969C18.0996 8.01562 16.0664 7.55859 13.8516 7.55859C11.8242 7.55859 10.2539 8.2207 9.14062 9.54492C8.03906 10.8574 7.48828 12.7383 7.48828 15.1875C7.48828 17.5898 7.98633 19.4238 8.98242 20.6895C9.99023 21.9434 11.4375 22.5703 13.3242 22.5703C14.3555 22.5703 15.3047 22.4707 16.1719 22.2715V18.2461H11.584V12.8848Z" fill="#A0A0A0"/>
@@ -71,7 +71,7 @@
                     </svg>
 
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>

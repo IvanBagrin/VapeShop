@@ -1,11 +1,11 @@
 <template>
-    <div class = 'h-855 min-h-full pt-20 pb-20'>
-        <div class = "text-center">
+    <div class = 'xl:h-855 min-h-full pt-16 pb-20'>
+        <div class = "xl:text-center">
             <div class = "text-brownMy font-bold text-2xl">Best seller</div>
             <div class = 'text-5xl font-bold leading-normal text-blackMy'>Best Seller Product</div>
             <button class = 'w-44 h-14 border border-blackMy rounded bg-blackMy text-white font-medium text-lg mt-14'>Browse all</button>
         </div>
-        <div class = "flex justify-between mt-16">
+        <div class = "xl:flex xl:justify-between mt-16">
             <div>
                 <img class="h-72 rounded" src="../../assets/img/bestSeller/bestSeller.png" alt="bestseller">
                 <div class = "mt-5 ml-4 text-lg font-bold">
