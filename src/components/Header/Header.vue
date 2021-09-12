@@ -30,7 +30,7 @@
       <button class="text-white w-40 h-14 border border-blackMy rounded bg-blackMy">Create account</button>
     </div>
 
-    <div class = "xl:hidden">
+    <div class = "xl:hidden" v-on:click="menuBarHandle">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M22.9091 0H1.09091C0.489697 0 0 0.911915 0 2.03149C0 3.15107 0.489697 4.06299 1.09091 4.06299H22.9091C23.5103 4.06299 24 3.15107 24 2.03149C24 0.911915 23.5103 0 22.9091 0Z" fill="#06060D"/>
       <path d="M22.9091 10.1196H1.09091C0.489697 10.1196 0 11.0315 0 12.1511C0 13.2707 0.489697 14.1826 1.09091 14.1826H22.9091C23.5103 14.1826 24 13.2707 24 12.1511C24 11.0315 23.5103 10.1196 22.9091 10.1196Z" fill="#06060D"/>
@@ -44,9 +44,9 @@
 <script>
 export default {
   name: 'Header',
-  props: {
-    
-  },
+  props: 
+   ['menuBarHandle'],
+  
 };
 </script>
 
