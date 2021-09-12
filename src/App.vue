@@ -1,14 +1,14 @@
 <template>
-  <Header class="container mx-auto px-6 xl:MyContainer"/>
-  <Promo class="container mx-auto px-6 xl:MyContainer" />
-  <ProductCategories class="container mx-auto px-6 xl:MyContainer"/>
-  <Benefit class="container mx-auto px-6 xl:MyContainer"/>
-  <Difference class="container mx-auto px-6 xl:MyContainer"/>
-  <BestSeller class="container mx-auto px-6 xl:MyContainer"/>
-  <ProductBrand class="container mx-auto px-6 xl:MyContainer"/>
-  <Posts class="container mx-auto px-6 xl:MyContainer" />
-  <Sale class="container mx-auto px-6 xl:MyContainer"/>
-  <Bottom class="container mx-auto px-6 xl:MyContainer" />
+  <Header class="container mx-auto px-6 "/>
+  <Promo class="container mx-auto px-6 " />
+  <ProductCategories class="container mx-auto px-6 "/>
+  <Benefit class="container mx-auto px-6 "/>
+  <Difference class="container mx-auto px-6 "/>
+  <BestSeller class="container mx-auto px-6 "/>
+  <ProductBrand class="container mx-auto px-6 "/>
+  <Posts class="container mx-auto px-6 " />
+  <Sale class="container mx-auto px-6 "/>
+  <Bottom class="container mx-auto px-6 " />
 
 </template>
 

@@ -22,7 +22,7 @@
                     <div class = 'text-brownMy flex justify-between mt-32 mr-10 xl:mr-2'>
                         <div class = 'xl:w-32'></div>
                         <div class = 'w-32'>Categories</div>
-                        <div class = 'w-36'>About us</div>
+                        <div class = 'w-36 ml-9 xl:-ml-1 '>About us</div>
                     </div>
                     <div class = 'text-white xl:flex xl:justify-between'>
                         <ul class = 'top-72 xl:top-0 xl:w-32 w-auto absolute  xl:relative grid grid-rows-2 grid-cols-2 gap-x-9 xl:grid-rows-1 xl:grid-cols-1'>
