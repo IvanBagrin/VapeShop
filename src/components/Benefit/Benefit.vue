@@ -1,7 +1,7 @@
 <template>
-  <div class= "xl:h-760 pt-14  xl:pt-20">
+  <div class= "pt-14 xl:pt-20 xl:h-760">
       <div class = "flex flex-col xl:flex-row xl:justify-between xl:items-center">
-          <div class = "xl:w-450 text-5xl font-bold leading-normal text-blackMy">
+          <div class = "text-5xl font-bold leading-normal xl:w-450 text-blackMy">
               The benefit Vaping vs Smoking
           </div>
 
